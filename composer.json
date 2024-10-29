@@ -1,0 +1,21 @@
+{
+    "name": "malikits/yii2-logger",
+    "description": "A custom logger extension for Yii2 to log messages into files",
+    "type": "yii2-extension",
+    "require": {
+        "php": "^8.2",
+        "yiisoft/yii2": "^2.0",
+        "yidas/yii2-composer-bower-skip": "^2.0"
+    },
+    "license": "MIR",
+    "autoload": {
+        "psr-4": {
+            "Malikits\\Yii2Logger\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
